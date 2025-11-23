@@ -52,12 +52,14 @@ function App() {
       reset()
     }
 
-
     let hour = Math.floor(display/(1000 * 60 * 60));
     let minute = Math.floor(display/(1000 * 60)%60);
     let second = Math.floor(display/1000%60);
 
-    return `${hour} : ${minute} : ${second}`;
+    let m = String(minute).padStart(2,"0")
+    let s = String(second).padStart(2,"0")
+
+    return `${hour} : ${m} : ${s}`;
   }
 
   return (
