@@ -1,0 +1,50 @@
+html {
+    background-color: rgb(37, 37, 37);
+    height: 100%;
+}
+
+.btn {
+    background-color: rgb(48, 48, 48);
+    color: rgb(240, 233, 224);
+    font-size: 30px;
+    width: 150px;
+    height: 75px;
+    cursor: pointer;
+}
+
+.container {
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: 200px;
+    gap: 20px;
+}
+
+.input-container {
+    margin-top: 100px;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+}
+
+.num-input {
+    height: 50px;
+    font-size: 25px;
+    width: 100%;
+}
+
+.text-container {
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+}
+
+.text {
+    height: 50px;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    color: rgb(211, 209, 206);
+}
